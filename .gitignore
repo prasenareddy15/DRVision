@@ -1,0 +1,48 @@
+data/
+# Ignore virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Installer logs
+pip-log.txt
+
+# Environment variable files
+.env
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code settings
+.vscode/
+
+# Compiled C files
+*.out
+*.o
+
+# MyPy and Pyright type-check caches
+.mypy_cache/
+.pyright/
+
+# IDE files
+.idea/
+*.iml
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log

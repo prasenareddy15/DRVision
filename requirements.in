@@ -1,0 +1,10 @@
+# requirements.in
+fastapi
+uvicorn[standard]
+torch
+torchvision
+torchaudio
+pandas
+scikit-learn
+matplotlib
+opencv-python
