@@ -2,6 +2,7 @@ import os
 import torch
 import torch.nn as nn
 from torchvision import models, transforms
+from torchvision.models import efficientnet_b0,EfficientNet_B0_Weights
 from torch.utils.data import DataLoader, Dataset
 from PIL import Image
 import pandas as pd
@@ -27,7 +28,8 @@ class RetinopathyDataset(Dataset):
 
 # Define model
 def get_model():
-    model = models.efficientnet_b0(pretrained=True)
+    weights = EfficientNet_B0_Weights.DEFAULT  # or .IMAGENET1K_V1 for specific version
+    model = efficientnet_b0(weights=weights)
     device = torch.device("cpu")
     model.to(device)
     model.classifier[1] = nn.Linear(model.classifier[1].in_features, 5)  # Assuming 5 classes for DR

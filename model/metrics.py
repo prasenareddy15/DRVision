@@ -11,10 +11,10 @@ from train import RetinopathyDataset, get_model  # Ensure these are correctly im
 criterion = torch.nn.CrossEntropyLoss()
 val_loss=0
 # Paths
-val_csv_path = 'C:/Users/mavul/Documents/known/dr_vision/data/val_labels.csv'
-img_dir = 'C:/Users/mavul/Documents/known/dr_vision/data/train'
-model_path = 'C:/Users/mavul/Documents/known/dr_vision/model/model.pth'
-results_file = 'C:/Users/mavul/Documents/known/dr_vision/model/evaluation_results.csv'
+val_csv_path = 'C:/Users/mavul/Documents/known/DRVision/data/val_labels.csv'
+img_dir = 'C:/Users/mavul/Documents/known/DRVision/data/train'
+model_path = 'C:/Users/mavul/Documents/known/DRVision/model/model.pth'
+results_file = 'C:/Users/mavul/Documents/known/DRVision/model/evaluation_results.csv'
 
 # Load data
 val_df = pd.read_csv(val_csv_path)

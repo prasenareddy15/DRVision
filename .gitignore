@@ -1,4 +1,5 @@
 data/
+output/
 # Ignore virtual environment
 venv/
 ENV/
