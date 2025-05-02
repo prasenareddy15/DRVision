@@ -2,7 +2,7 @@ import os
 import shutil
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
-from dr_app.predict import get_prediction
+from predict import get_prediction
 
 appl = FastAPI()
 
