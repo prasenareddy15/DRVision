@@ -1,0 +1,14 @@
+# requirements.in
+torch==2.2.0
+numpy<2
+torchvision
+torchaudio
+matplotlib
+scikit-learn
+pandas
+opencv-python
+Flask
+fastapi 
+uvicorn 
+python-multipart 
+pillow

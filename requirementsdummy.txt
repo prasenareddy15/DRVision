@@ -1,0 +1,15 @@
+# requirements.txt
+# used if the veriosn are locked.... upgrades are not included through out the process
+torch==2.2.0
+torchvision==0.17.0
+torchaudio==2.2.0
+matplotlib>=3.7.0,<4.0.0
+scikit-learn>=1.3.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+opencv-python
+Flask>=2.3,<3.0
+fastapi 
+uvicorn 
+python-multipart 
+pillow
+

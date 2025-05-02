@@ -1,0 +1,1 @@
+always run ctlr+shift+p python interpreter using anaconds base
